@@ -21,7 +21,7 @@ nav {
   display: grid;
   grid-template-columns: 15% 70% 15%;
   align-items: center;
-  m
+  
 }
 
 .youtube-logo {
@@ -73,14 +73,117 @@ nav {
   width: 50px;
 }
 
-section {
-  /* background-color: aqua; */
-}
 
-aside {
+
+/* aside {
   background-color: bisque;
+} */
+
+/* footer {
+  background-color: burlywood;
+} */
+
+.body{
+  width: 60%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px 10px 0px 70px;
+}
+.video{
+  background-color: aqua;
+  width: 100%;
+  height: 75%;
+} 
+
+.main_video{
+  width: 100%;
+  height: 100%;
 }
 
-footer {
-  background-color: burlywood;
+.title_video{
+  width: 100%;
+  margin:15px 0;
+} 
+.subs{
+  width: 100%;
 }
+.author{
+  width: 70px;
+}
+
+.uper_icons{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; 
+  align-items: baseline;
+}
+
+.subscribers{
+  position: relative;
+}
+
+/* .subscribers::before{
+  content: url("https://www.vhv.rs/dpng/d/0-492_youtube-icon-white-png-transparent-png.png");
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  position: absolute;
+
+} */
+
+
+.right_icons p{
+  font-size: 20px;
+  color: rgb(192, 192, 192);
+
+}
+
+.lower_icons{
+  border-top: 1px solid grey;
+  padding-top: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.l_right_icons img{
+  width: 20px;
+}
+
+.publish{
+  padding-top: 10px;
+}
+.publish h2{
+  font-size: 0.8em;
+}
+.publish p{
+  margin-top: 5px;
+}
+.show_more{
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid gray;
+  width: 100%;
+  text-align: center;
+
+}
+a{
+  text-decoration: none;
+}
+
+.loading{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.gif{
+  width: 80px; ;
+}
+
+/* .uper_icons{
+  background-color: cadetblue;
+} */
+/* .publish{
+  background-color: coral;
+} */
