@@ -99,7 +99,13 @@ nav {
 .title_video {
   width: 100%;
   margin: 15px 0;
+  font-size: 1.5em;
 }
+
+h1{
+  margin: 20px 0;
+}
+
 .subs {
   width: 100%;
 }
@@ -111,11 +117,21 @@ nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
+  margin: 0 20px;
 }
-
+.left_icons{
+  display: flex;
+  align-items: flex-end;
+}
 .subscribers {
   position: relative;
+  border: none;
+  background-color: red;
+  color: white;
+  width:120px;
+  height: 30px;
+  margin-left: 30px;
 }
 
 .right_icons p {
@@ -128,21 +144,42 @@ nav {
   padding-top: 10px;
   margin-top: 20px;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   justify-content: space-between;
+  padding: 10px 0;
 }
+
+.l_left_icons{
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+
+
+}
+
+.lower_icons button{
+  border: none;
+  background-color: white;
+}
+
+.l_right_icons{
+  padding-right: 15px;
+}
+
 .l_right_icons img {
   width: 20px;
 }
 
 .publish {
-  padding-top: 10px;
+  padding: 25px 50px;
 }
 .publish h2 {
   font-size: 0.8em;
 }
 .publish p {
-  margin-top: 5px;
+  margin: 15px 0;
 }
 .show_more {
   margin-top: 10px;
@@ -158,11 +195,15 @@ a {
 .loading {
   margin-top: 20px;
   width: 100%;
-  text-align: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gif {
-  width: 80px;
+
+  width: 10%;
 }
 
 aside {
