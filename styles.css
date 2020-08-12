@@ -6,12 +6,12 @@
 }
 
 html{
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
   background: hsl(78, 0%, 95%);
-  height: 100%;
+  min-height: 100%;
 }
 
 article,
@@ -24,13 +24,9 @@ nav {
 }
 
 main {
-  width: 100%;
   height: 100%;
-  display: grid;
-  grid-template-rows: 10% 75% 15%;
-
 }
-
+/* header */
 nav {
   display: grid;
   grid-template-columns: 15% 70% 15%;
@@ -82,26 +78,33 @@ nav {
   height: 30px;
   width: 50px;
 }
-
+/* main */
 .body-container {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: row;
 }
 
 .body {
-  width: 60%;
+  width: 75%;
+  height: 100%;
+  margin: 20px 10px 0px 70px;
   display: flex;
   flex-flow: row wrap;
-  margin: 20px 10px 0px 70px;
 }
 .video {
+  display: flex;
   width: 100%;
-  height: 75%;
+  height: 600px;
+  position: relative;
+  /* align-items: stretch; */
 }
 
 .main_video {
   min-width: 100%;
   height: 100%;
+  position: absolute;
 }
 
 .title_video {
@@ -230,7 +233,8 @@ aside {
 }
 
 .recommended-video img {
-  width: 30%;
+  width: 70%;
+  height: auto;
 }
 
 .info-video {
@@ -245,6 +249,7 @@ hr {
 
 footer{
   width: 100%;
+  max-height: 50px;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
