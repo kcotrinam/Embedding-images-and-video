@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   min-height: 100%;
 }
 
@@ -36,6 +36,7 @@ nav {
 .youtube-logo {
   display: block;
   width: 150px;
+  margin-left: 6rem;
 }
 
 .search-container {
@@ -49,35 +50,27 @@ nav {
 .search-bar {
   display: block;
   width: 80%;
-  height: 2.2rem;
+  height: 1.8rem;
 }
 
 .right {
   display: flex;
-  justify-content: space-between;
-  padding: 0.5rem;
+  justify-content: center;
 }
 
-.right img {
-  margin: 0 auto;
-}
-.upload,
-.record {
-  width: 30px;
-}
-.bell {
-  width: 45px;
-}
-
-.search-button {
-  width: 65px;
-  /* padding: 0.2rem; */
-}
-
-.search-button img {
-  height: 30px;
+.fa-arrow-up,
+.fa-video,
+.fa-bell {
   width: 50px;
+  padding: 0.9rem;
+  transform: scale(1.5);
+  margin-left: 0.5rem;
 }
+
+.fa-search {
+  padding: 0.4rem;
+}
+
 /* main */
 .body-container {
   width: 100%;
@@ -94,17 +87,13 @@ nav {
   flex-flow: row wrap;
 }
 .video {
-  display: flex;
   width: 100%;
   height: 600px;
-  position: relative;
-  /* align-items: stretch; */
 }
 
 .main_video {
   min-width: 100%;
   height: 100%;
-  position: absolute;
 }
 
 .title_video {
@@ -128,15 +117,6 @@ nav {
 .subscribers {
   position: relative;
 }
-
-/* .subscribers::before{
-  content: url("https://www.vhv.rs/dpng/d/0-492_youtube-icon-white-png-transparent-png.png");
-  display: inline-block;
-  width: 20px;
-  height: 15px;
-  position: absolute;
-
-} */
 
 .right_icons p {
   font-size: 20px;
@@ -247,40 +227,38 @@ hr {
   margin-top: 0.5rem;
 }
 
-footer{
+footer {
   width: 100%;
   max-height: 50px;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-
-  
 }
 
-.uper_nav{
+.uper_nav {
   margin-left: 20px;
   display: flex;
   flex-direction: row;
 }
 
-.uper_nav button{
+.uper_nav button {
   margin-right: 20px;
 }
 
-ul{
+ul {
   list-style: none;
 }
-li{
+li {
   margin-right: 10px;
 }
 
-.lower_nav ul{
+.lower_nav ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
 
-.l_lower_nav ul{
+.l_lower_nav ul {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
