@@ -20,6 +20,12 @@ This project is based on the real Youtube website. It was design in order to pra
 
 ## Getting Started
 
+To get a local copy up and running follow these simple steps:
+
+- Go to the main page.
+- Press the "Code" button and get the repo link.
+- Clone it using git command "git clone &lt;link>".
+
 ## Author1
 
 - Github: [@ricardomonte](https://github.com/ricardomonte)
@@ -36,21 +42,17 @@ This project is based on the real Youtube website. It was design in order to pra
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues here](https://github.com/kcotrinam92/Embedding-images-and-video/issues)
+Feel free to check the [issues here](https://github.com/kcotrinam92/Embedding-images-and-video/issues).
 
 ## Show your support
 
-Give a :star: if you like this project!
+Give a :star: if you like this project!.
 
 ## Acknowlegment
 
-To [Microverse](https://www.microverse.org/)
-and mentors
+- To [Microverse](https://www.microverse.org/)
+  and mentors.
 
 ## License
 
-This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/lic.url) licensed.
-
-
-
-
+This project is [MIT](LICENSE) licensed.
