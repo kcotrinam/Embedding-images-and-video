@@ -10,18 +10,47 @@ This project is based on the real Youtube website. It was design in order to pra
 
 - Major languages used for this project were Html5 and css3.
 - Font awesome CDN was used to include icons on the buttons.
+- Using Flexbox and Grid
 - Vs Code was used as a editor.
+- W3 HTML Validator Service
 
 ## Live Demo:
+
+[Live demo](https://kcotrinam92.github.io/Embedding-images-and-video/)
 
 ## Getting Started
 
 ## Author1
 
--
+- Github: [@ricardomonte](https://github.com/ricardomonte)
+- Twitter: [@ramnkco](https://twitter.com/ramnkco)
+- LinkedIn: [Ricardo Montenegro](https://www.linkedin.com/in/ricardo-antonio-montenegro-nu%C3%B1ez-87a74944/)
 
 ## Author2
 
-- Github: https://github.com/kcotrinam92 - automatic! [@kcotrinam92]
-- Twitter: @kevinCot12
-- LinkedIn: https://www.linkedin.com/in/kevin-cotrina-6208b7149/
+- Github: [@kcotrinam92](https://github.com/kcotrinam92)
+- Twitter: [@kevinCot12](https://twitter.com/KevinCot12)
+- LinkedIn: [Kevin Contrina](https://www.linkedin.com/in/kevin-cotrina-6208b7149/)
+
+## Contributions
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues here](https://github.com/kcotrinam92/Embedding-images-and-video/issues)
+
+## Show your support
+
+Give a :star: if you like this project!
+
+## Acknowlegment
+
+To [Microverse](https://www.microverse.org/)
+and mentors
+
+## License
+
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/lic.url) licensed.
+
+
+
+
