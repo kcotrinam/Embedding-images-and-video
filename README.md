@@ -16,7 +16,7 @@ This project is based on the real Youtube website. It was design in order to pra
 
 ## Live Demo:
 
-[Live demo](https://kcotrinam92.github.io/Embedding-images-and-video/)
+[Live demo](https://kcotrinam.github.io/Embedding-images-and-video/)
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple steps:
 
 ## Author2
 
-- Github: [@kcotrinam92](https://github.com/kcotrinam92)
+- Github: [@kcotrinam92](https://github.com/kcotrinam)
 - Twitter: [@kevinCot12](https://twitter.com/KevinCot12)
 - LinkedIn: [Kevin Contrina](https://www.linkedin.com/in/kevin-cotrina-6208b7149/)
 
