@@ -42,7 +42,7 @@ To get a local copy up and running follow these simple steps:
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues here](https://github.com/kcotrinam92/Embedding-images-and-video/issues).
+Feel free to check the [issues here](https://github.com/kcotrinam/Embedding-images-and-video/issues).
 
 ## Show your support
 
